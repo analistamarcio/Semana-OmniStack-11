@@ -12,7 +12,7 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [whatsapp, setWhatsapp] = useState("");
   const [city, setCity] = useState("");
-  const [uf, setUf] = useState("");
+  const [province, setProvince] = useState("");
 
   const history = useHistory();
 
@@ -24,7 +24,7 @@ export default function Register() {
       email,
       whatsapp,
       city,
-      uf
+      province
     };
 
     try {
@@ -82,8 +82,8 @@ export default function Register() {
             <input
               placeholder="Province"
               style={{ width: 120 }}
-              value={uf}
-              onChange={e => setUf(e.target.value)}
+              value={province}
+              onChange={e => setProvince(e.target.value)}
             />
           </div>
 
