@@ -11,7 +11,6 @@
 
 👤 **Marcio Ferreira**
 
-- Website: linkedin.com/in/analistamarcio
 - Github: [@analistamarcio](https://github.com/analistamarcio)
 - LinkedIn: [@analistamarcio](https://linkedin.com/in/analistamarcio)
 
